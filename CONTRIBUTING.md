@@ -47,12 +47,18 @@ Always work on a new branch, not `main`. Name it after the issue you are fixing.
 git checkout -b <your-branch-name>
 ```
 
-### Step 4: Make Changes
+### Step 4: Ask to be Assigned
+Before you start working, find an issue you want to solve and leave a comment:
+> "Can you assign this to me?"
+
+Wait for a maintainer ie me to approve and assign it to you. This avoids multiple people working on the same issue.
+
+### Step 5: Make Changes
 1.  Open the project in your code editor (like VS Code).
-2.  Find an issue to work on (look for comments like `# Issue #...` in the code or check the Issues tab on GitHub).
+2.  Find the issue you were assigned (look for comments like `# Issue #...` in the code).
 3.  Make your changes to fix the issue.
 
-### Step 5: Test Your Changes
+### Step 6: Test Your Changes
 Make sure you didn't break anything!
 1.  Install dependencies (if you haven't already):
     ```bash
@@ -64,20 +70,20 @@ Make sure you didn't break anything!
     ```
     *Note: Some tests might fail if you haven't fixed those specific issues yet. That's okay! Focus on the issue you are solving.*
 
-### Step 6: Commit Your Changes
+### Step 7: Commit Your Changes
 Save your changes with a message explaining what you did.
 ```bash
 git add .
 git commit -m "Fix Issue #1: Corrected typo in intro.md"
 ```
 
-### Step 7: Push to GitHub
+### Step 8: Push to GitHub
 Upload your branch to your forked repository.
 ```bash
 git push origin <your-branch-name>
 ```
 
-### Step 8: Open a Pull Request (PR)
+### Step 9: Open a Pull Request (PR)
 1.  Go to the original repository on GitHub (not your fork).
 2.  You should see a yellow banner saying **"Compare & pull request"**. Click it.
 3.  If you don't see the banner, go to the **Pull requests** tab and click **New pull request**.
