@@ -10,11 +10,14 @@ A simple repo to help you practice real open-source workflows.
 - CI pipeline (GitHub Actions)
 
 ## How to Contribute
-1. Fork the repo  
-2. Clone your fork  
-3. Create a new branch  
-4. Make changes  
-5. Run tests  
-6. Open a pull request  
+We have a detailed, beginner-friendly guide to help you get started.
+
+👉 **[Read the Step-by-Step Contributing Guide](CONTRIBUTING.md)**
+
+It covers:
+1.  Setting up Git and GitHub
+2.  Forking and Cloning
+3.  Making changes and running tests
+4.  Submitting your first Pull Request
 
 Happy contributing!
