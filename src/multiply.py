@@ -1,3 +1,10 @@
 def multiply(a, b):
-    # Issue #5: Add docstring
-    return a * b
+     """Multiply two numbers and return the result.
+    Args:
+        a: The first number.
+        b: The second number.
+        
+    Returns:
+        The product of a and b.
+    """
+     return a * b

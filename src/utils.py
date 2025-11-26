@@ -1,3 +1,10 @@
 def is_number(value):
-    # Issue #11: Fix utils.is_number for negative numbers
-    return str(value).isdigit()
+    try:
+        int(value)
+        return True
+    except (ValueError, TypeError):
+        try:
+            float(value)
+            return True
+        except (ValueError, TypeError):
+            return False

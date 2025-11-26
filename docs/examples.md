@@ -11,3 +11,9 @@ from src.power import power
 
 print(power(2, 4))  # Output: 16
 ```
+
+```python
+from src.divide import divide
+
+print(divide(20, 4))  # Output: 5
+```

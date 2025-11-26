@@ -1,3 +1,11 @@
 def add(a, b):
-    # Issue #3: Add docstring
-    return a + b
+     """Add two numbers and return the result.
+    
+    Args:
+        a: The first number.
+        b: The second number.
+        
+    Returns:
+        The Addition of a and b.
+    """
+     return a + b
